@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
 import { logo } from './assets';
+import { Footer } from './components';
 import { Home, CreatePost } from './page';
 
 const App = () => (
@@ -18,7 +19,9 @@ const App = () => (
         <Route path="/" element={<Home />} />
         <Route path="/create-post" element={<CreatePost />} />
       </Routes>
+      
     </main>
+    <Footer/>
   </BrowserRouter>
 );
 
