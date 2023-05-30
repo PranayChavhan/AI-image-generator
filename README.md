@@ -43,11 +43,11 @@ To explore AI Art locally or deploy it to a production environment, follow these
 3. Install the required dependencies in server and client directory: `npm install`
 4. Set up the necessary environment variables: Create a `.env` file in the server directory and add the following variables:
 
-OPENAI_API_KEY="your-openai-api-key"
-MONGODB_URL="your-mongodb-url"
-CLOUDINARY_CLOUD_NAME="your-cloudinary-cloud-name"
-CLOUDINARY_API_KEY="your-cloudinary-api-key"
-CLOUDINARY_API_SECRET="your-cloudinary-api-secret"
+- OPENAI_API_KEY="your-openai-api-key"
+- MONGODB_URL="your-mongodb-url"
+- CLOUDINARY_CLOUD_NAME="your-cloudinary-cloud-name"
+- CLOUDINARY_API_KEY="your-cloudinary-api-key"
+- CLOUDINARY_API_SECRET="your-cloudinary-api-secret"
 
 
 5. Run the application:
