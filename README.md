@@ -4,7 +4,7 @@
 
 AI Art is an innovative project that harnesses the power of artificial intelligence to generate stunning images based on prompts. By leveraging the OpenAI API's DALL·E model, AI Art allows users to unleash their creativity and generate unique artwork by providing imaginative prompts. Join our vibrant community platform, where users can showcase their AI-generated art, connect with fellow artists, and explore a world of limitless artistic possibilities. 🖌️✨
 
-![AI Art Screenshot](screenshot.png)
+
 
 ## 📚 Introduction
 
@@ -73,7 +73,11 @@ Contributions to AI Art are welcome! If you have any ideas, suggestions, or bug 
 
 For any inquiries or further information, feel free to reach out to us:
 
-- **Email**: pranaychavhan2102@gmail.com
-- **LinkedIn**: [Your Name](https://www.linkedin.com/in/pranay-chavhan-38785a224/)
+- **Email**: chavhanpranay48@gmail.com
+- **LinkedIn**: [Pranay Chavhan](https://www.linkedin.com/in/pranay-chavhan-38785a224/)
 
 Unleash your creativity with AI Art and become part of our vibrant community!
+
+![Screenshot from 2024-06-11 00-28-16](https://github.com/PranayChavhan/BookMyFlight/assets/85397500/436a24fd-388d-4186-af0d-f1f7d74937ed)
+![Screenshot from 2024-06-11 00-28-46](https://github.com/PranayChavhan/BookMyFlight/assets/85397500/a87100f1-1a30-429b-bbfd-a6338e2afe77)
+
