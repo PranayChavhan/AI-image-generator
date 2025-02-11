@@ -40,9 +40,9 @@ const CreatePost = () => {
 
         var data = await response.json();
         console.log('====================================');
-        console.log(data.photo.url);
+        console.log(data.image);
         console.log('====================================');
-        setForm({ ...form, photo:data.photo.url });
+        setForm({ ...form, photo:data.image });
       } catch (err) {
         alert(err);
       } finally {
