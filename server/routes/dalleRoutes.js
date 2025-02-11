@@ -15,6 +15,8 @@ const configuration = new Configuration({
 
 const client = new HfInference(process.env.HUGGING_FACE_API_KEY);
 
+
+
 const openai = new OpenAIApi(configuration);
 
 router.route('/').get((req, res) => {
@@ -25,6 +27,8 @@ router.post('/', async (req, res) => {
   try {
     const { prompt } = req.body;
 
+    console.log("++++++++++++");
+    console.log(client);
     const aiResponse = await client.textToImage({
       model: 'stabilityai/stable-diffusion-3.5-large',
       inputs: prompt,
@@ -32,6 +36,8 @@ router.post('/', async (req, res) => {
       provider: 'hf-inference',
     });
 
+    console.log("++++++++++++");
+    console.log(aiResponse);
     const arrayBuffer = await aiResponse.arrayBuffer();
     const base64Image = Buffer.from(arrayBuffer).toString('base64');
 
